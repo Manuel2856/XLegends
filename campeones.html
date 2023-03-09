@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeones</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    >
+    <link rel="icon" type="image/x-icon" href="../images/logoLX.webp">
+    <link rel="stylesheet" href="../css/css-general.css">
+    <link rel="stylesheet" href="../css/campeones.css">
+</head>
+<body>
+    <div class="container">
+        <header class="row gx-0" id="titulo-cabecera">
+            <h1 class="nombre-sitio mt-3 text-center">XLegends</h1>
+          </header>
+          
+          <div class="sticky-top w-100 ">
+            <nav class="row col-lg-12 g-0 w-100 mr-0">
+              <div class=" row align-items-center justify-content-center col-12 col-lg-3 mt-4 mt-lg-0">
+                <a class="col-3" href="../index.html">
+                  <img
+                    loading="lazy"
+                    class="a mx-auto d-block"
+                    src="../images/logoLX.webp"
+                    alt="imagen-que-representa-el-logo-de-la-página"
+                  >
+                </a>
+                <img class="col-1 row" id="flecha-giratoria" onclick="toggleAndRotate()" src="../images/flecha-hacia-abajo.png" alt="flecha-hacia-abajo">
+              </div>
+              
+              <ul id="elementos" class="col-12 col-lg-9 gx-0 p-5 gap-4 align-content-center nav row">
+                <li class="nav-item d-block col-12 col-lg-2">
+                    <a class="btn btn-dark w-100" href="./noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item d-block col-12 col-lg-3 ">
+                    <a class="btn btn-dark w-100 seleccionado" href="./campeones.html">Campeones</a>
+                </li>
+                <li
+                  class="nav-item d-block col-12 col-lg-3"
+                >
+                <a class="btn btn-dark w-100" href="./composiciones.html">Composiciones</a>            
+                </li>
+                <li class="nav-item d-block col-12 col-lg-2">
+                  <a class="btn btn-dark w-100" href="./registro.html">Registro</a>
+                </li>
+                
+              </ul>
+            </nav>
+            
+          </div>
+        <main>
+            <article class="row g-0 mt-5">
+                <div class="row g-0 col-12 col-lg-6">
+                    <img class="p-0" src="../images/lineas.webp" alt="lineas">
+                </div>
+                <div class="col-12 mt-3 mt-lg-0 ms-lg-5 col-lg-5">
+                    <h2 class="text-center">LOS ROLES</h2>
+                    
+                    <p>Existen tres líneas en League of Legends, y es en estas líneas donde ocurre la mayor parte de la acción del juego, pero el sistema de campeones se divide según los roles:    </p>
+                    <ol>
+                        <li>Jungla</li>
+                        <li>Top</li>
+                        <li>Mid</li>
+                        <li>ADC</li>
+                        <li>Soporte</li>
+                    </ol>
+                    <p>Cada rol tiene diferentes campeones.</p>
+                </div>           
+            </article>
+            <article class="mt-4">
+              <div class="row justify-content-center align-items-center">
+              <h2 class="col-4 text-center">LA JUNGLA</h2>
+              <img class="col-2 jungla" src="../images/Jungle_icon-129070820.webp" alt="Jungla">
+              </div>
+              <p>Jungla o Jungler se considera una posición similar a ir a un carril pero que involucra matar a los "Monstruos" neutrales localizados en las zonas entre las líneas. Los Junglers se dedican a "farmear" los campamentos disponibles en la Jungla. Jungla hace referencia a cualquier área del mapa que no sea un carril o parte de la base de cualquier equipo, incluyendo el río que divide La Grieta del Invocador.</p>
+              <p>Algunos de los mejores campeones para la jungla son: </p>        
+                <div class="row">
+                  <h3 class="text-center">ZAC</h3>
+                  <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="../images/zac.webp" alt="imagen-zac">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <p class="mt-3 mt-lg-0">Zac es el resultado de un vertido tóxico que recorría una veta tecnoquímica y fue a parar a una profunda caverna apartada en el sumidero de Zaun. A pesar de sus humildes orígenes, Zac ha pasado de ser un flujo primitivo a un ser pensante que habita en las cañerías de la ciudad y que, de vez en cuando, abandona su morada para ayudar a los más desvalidos o reconstruir las infraestructuras destruidas de Zaun.</p>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <h3 class="text-center">Amumu</h3>
+                  <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="../images/amumu.webp" alt="Amumu">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <p class="mt-3 mt-lg-0">Cuenta la leyenda que Amumu es un alma solitaria y melancólica de la vieja Shurima que vaga por el mundo en busca de un amigo. Condenado por una maldición ancestral, su destino es permanecer solo para siempre, pues su tacto es muerte y su cariño, la perdición. Aquellos que afirman haberlo visto lo describen como un cadáver viviente, menudo y cubierto de vendajes. Amumu ha suscitado mitos, canciones y folclore transmitidos de generación en generación, hasta tal punto que ya es imposible separar la realidad de la ficción.</p>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <h3 class="text-center">Kayn</h3>
+                  <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="../images/kayn.webp" alt="Kayn">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <p>Shieda Kayn, un practicante sin par de la mortífera magia sombría, lucha por alcanzar su verdadero destino: llegar a guiar algún día a la Orden de la Sombra hacia una nueva era de supremacía jonia. Empuña la oscura arma viviente Rhaast, impasible ante la progresiva corrupción de su cuerpo y su mente. Solo hay dos desenlaces posibles: o bien Kayn somete al arma a su voluntad... o bien la malévola hoja lo consume por completo, allanando el camino hacia la destrucción de toda Runaterra.</p>
+                  </div>
+                </div>
+                
+              
+            </article>
+        </main>
+    </div>
+    <script src="../js/general.js"></script>
+</body>
+</html>
