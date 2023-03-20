@@ -1,0 +1,51 @@
+ol li{
+    color: white;
+}
+li::marker{
+    color: orange;
+}
+article {
+    border: 0.125rem solid #0A1931;
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(10, 25, 49, 0.5);
+  }
+  
+  
+.jungla{
+    height: 6.25rem;
+}
+
+  
+h2 {
+    position: relative;
+    padding-bottom: 0.625em;
+    margin-bottom: 1.25em;
+}
+  
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -0.0625em;
+  left: 0;
+  width: 100%;
+  height: 0.0625em;
+  background-color: #0A1931;
+  transform-origin: center;
+  transform: scaleX(0);
+  animation: border-grow 5s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+@keyframes border-grow {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+  
+  
+
+  

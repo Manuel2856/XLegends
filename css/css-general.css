@@ -1,0 +1,75 @@
+body{
+    background-color: #185ADB;
+}
+@font-face{
+    font-family: 'Slate Pro';
+    src: url(../fonts/SlatePro-Black.ttf);
+}
+*{
+    font-family: Slate Pro;
+    font-weight: 100;
+}
+/*CABECERA*/
+header{
+    background-color: #FFC947;
+}
+nav{
+    background-color: #FFC947;
+    border-radius: 0px 0px 30px 30px;
+    -webkit-border-radius: 0px 0px 30px 30px;
+    -moz-border-radius: 0px 0px 30px 30px;
+}
+.btn{
+    box-shadow: 0.2rem 0.2rem #000000;
+}
+.nombre-sitio{
+    font-family: Slate Pro;
+    text-shadow: 2px 2px 5px rgba(254, 221, 190, 1);
+    color: #0A1931;
+    font-size: 6rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+}
+
+
+.flecha{
+    height: 30px;
+}
+#flecha-giratoria {
+    transition: transform 0.5s ease-in-out;
+}
+@media screen and (min-width: 992px) {
+   #elementos {
+      display: flex !important;
+    }
+}
+/*Para cambiar el color del botón en donde estoy*/
+.seleccionado{
+    background-color: orange;
+    border-color: black;
+}
+.seleccionado:hover{
+    background-color: orange;
+    border-color: black;
+}
+
+
+/*Artículos*/
+p,li{
+    color: #ededed;
+}
+h2,h3,h4,h5,h6{
+    color: #ff8000;
+}
+article {
+    border: 0.125rem solid #0A1931;
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(10, 25, 49, 0.5);
+  }
+
